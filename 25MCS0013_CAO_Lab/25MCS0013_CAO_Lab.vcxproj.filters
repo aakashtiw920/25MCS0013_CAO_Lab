@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="25MCS0013_main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="helloworld_srl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="helloworld_prl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ret_et_helloworld.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ret_tid_helloworld.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ret_pratice.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ret_et_srl_vs_prl_performance_test.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mnudrvprg_010_parallel_construct.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mnudrvprg_020_runtime_environment_routine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="runtime_routine_header_working.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="030_wsc_for_pp1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="031_wsc_for_num_square.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="031_wsc_performance.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="031_wsc_menudrvprg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="runtime_routine_header_test.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="040_calculator_functions_pp1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="040_wsc_section_pp1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="050_scheduling_static.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="050_scheduling_dynamic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="050_scheduling_guided.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="060_Data_env_constructs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="00_colours.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
