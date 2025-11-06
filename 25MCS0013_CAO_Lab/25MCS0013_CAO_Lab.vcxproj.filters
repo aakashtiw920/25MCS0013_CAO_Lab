@@ -18,6 +18,12 @@
     <ClCompile Include="25MCS0013_main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="061_dec_critical.h">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="061_dec_reduction.h">
+      <Filter>Header Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="helloworld_srl.h">
@@ -81,6 +87,15 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="00_colours.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="00_colours_pratice.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="backery.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Deck_card_game.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

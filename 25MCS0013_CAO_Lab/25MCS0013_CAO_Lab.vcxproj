@@ -102,6 +102,8 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <OpenMPSupport>true</OpenMPSupport>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -123,6 +125,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="061_dec_critical.h" />
+    <ClCompile Include="061_dec_reduction.h" />
     <ClCompile Include="25MCS0013_main.cpp">
       <RuntimeLibrary Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">MultiThreaded</RuntimeLibrary>
       <OpenMPSupport Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</OpenMPSupport>
@@ -130,6 +134,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="00_colours.h" />
+    <ClInclude Include="00_colours_pratice.h" />
     <ClInclude Include="030_wsc_for_pp1.h" />
     <ClInclude Include="031_wsc_menudrvprg.h" />
     <ClInclude Include="031_wsc_for_num_square.h" />
@@ -140,6 +145,8 @@
     <ClInclude Include="050_scheduling_guided.h" />
     <ClInclude Include="050_scheduling_static.h" />
     <ClInclude Include="060_Data_env_constructs.h" />
+    <ClInclude Include="backery.h" />
+    <ClInclude Include="Deck_card_game.h" />
     <ClInclude Include="helloworld_prl.h" />
     <ClInclude Include="helloworld_srl.h" />
     <ClInclude Include="mnudrvprg_010_parallel_construct.h" />

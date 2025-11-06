@@ -1,43 +1,3 @@
-//#include"stdio.h"
-//#include"040_wsc_section_pp1.h"
-//int main()
-//{
-//    fn_wsc_sections_pp1_srl();
-//    fn_wsc_sections_pp1_prl();
-//}
-//#include<stdio.h>
-//#include<omp.h>
-//#include"050_scheduling_static.h"
-//#include"050_scheduling_dynamic.h"
-//#include"050_scheduling_guided.h"
-//int main()
-//{
-//	fn_default_static_scheduling();
-//	fn_static_01();
-//	fn_static_02();
-//	fn_default_dynamic_scheduling();
-//	fn_dynamic_01();
-//	fn_dynamic_02();
-//	fn_default_guided_scheduling();
-//	fn_guided_uneven();
-//	fn_guided_01();
-//	fn_guided_02();
-//}
-
-//#include<stdio.h>
-//#include<omp.h>
-//#include"060_Data_env_constructs.h"
-//int main()
-//{
-//	fn_run_vector_addition();
-//}
-//#include<stdio.h>
-//#include"00_colours_pratice.h"
-//int main()
-//{
-//	fn_main_page();
-//}
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
@@ -117,7 +77,7 @@ int main() {
 
     return 0;
 }
- bakery_minimal.cpp
+bakery_minimal.cpp
 #include <cstdio>
 #include <cstdlib>
 #include <omp.h>
@@ -202,4 +162,4 @@ int main(int argc, char** argv) {
     if (t_guided < best_t) { best = "guided";  best_t = t_guided; }
     std::printf("\nFastest in this run: %s (%.6f s)\n", best, best_t);
     return 0;
-}
+}#pragma once
